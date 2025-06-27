@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build FiveMCheat",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "../main.cpp",
+        "../features/triggerbot.cpp",
+        "../features/silent_aim.cpp",
+        "../features/visuals.cpp",
+        "../features/online.cpp",
+        "../features/player.cpp",
+        "../features/vehicle.cpp",
+        "../features/weapons.cpp",
+        "../features/eventmanager.cpp",
+        "../features/misc.cpp",
+        "../gui/menu.cpp",
+        "../Settings.cpp",
+        "../Offsets.cpp",
+        "imgui/*.cpp",
+        "imgui/backends/imgui_impl_win32.cpp",
+        "imgui/backends/imgui_impl_dx9.cpp",
+        "-o",
+        "../FiveMCheat.exe",
+        "-I../",
+        "-Iimgui",
+        "-Iimgui/backends",
+        "-IC:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include",
+        "-LC:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Lib/x64",
+        "-ld3d9",
+        "-ld3dx9"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

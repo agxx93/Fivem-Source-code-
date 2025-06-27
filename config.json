@@ -1,0 +1,63 @@
+{
+  "aimAssist": true,
+  "fov": 120.0,
+  "smooth": 2.0,
+  "infAmmo": true,
+  "cross": true,
+  "crossColor": [0.0, 1.0, 0.0],
+  "menuColor": [0.12, 0.12, 0.12, 1.0],
+  "triggerbot": true,
+  "triggerDelay": 50,
+  "silentAim": true,
+  "silentAimFov": 60.0,
+  "silentAimChance": 100.0,
+  "magicBullet": false,
+  "visuals": true,
+  "box": true,
+  "chams": false,
+  "skeleton": false,
+  "names": true,
+  "weaponEsp": false,
+  "healthBar": true,
+  "armorBar": false,
+  "distance": true,
+  "snapline": false,
+  "radar": false,
+  "radarZoom": 5.0,
+  "player": {
+    "godmode": false,
+    "semiGod": false,
+    "noRagdoll": false,
+    "noCollision": false,
+    "noclip": false,
+    "stamina": false,
+    "swimSpeed": 1.0,
+    "jumpBoost": 1.0
+  },
+  "vehicle": {
+    "godmode": false,
+    "semiGod": false,
+    "explode": false,
+    "repair": false,
+    "turbo": false,
+    "rocket": false
+  },
+  "weapons": {
+    "noRecoil": false,
+    "noSpread": false,
+    "explosive": false,
+    "infiniteAmmo": true,
+    "damageMult": 1.0,
+    "rangeMult": 100.0
+  },
+  "misc": {
+    "freecam": false,
+    "noclipSpeed": 10.0,
+    "altitude": 20.0,
+    "hp": 200,
+    "armor": 100,
+    "time": 12,
+    "weather": 0,
+    "autoHeal": false
+  }
+}
